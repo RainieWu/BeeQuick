@@ -56,6 +56,7 @@ input:-moz-placeholder { color:#fff5c9; }
 	float: right;
 }
 
+
 #hotSearch{
 	margin-top: 50px;
 }
@@ -160,6 +161,7 @@ input:-moz-placeholder { color:#fff5c9; }
 #historySearch li p{
 	display: inline-block;
 	float: left;
+	color: #474747;
 }
 
 #historySearch #cleanHistory{
@@ -182,7 +184,8 @@ input:-moz-placeholder { color:#fff5c9; }
 	margin-top: -3px;
 }
 
-#historySearch #cleanHistorydiv div p{
+#historySearch #cleanHistory div p{
 	display: inline-block;
 	float: left;
+	color: #a2a1a1;
 }

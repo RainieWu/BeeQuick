@@ -1,5 +1,4 @@
 var ulLists = document.getElementById("hotSearch").getElementsByClassName("mui-table-view");
-
 for(var i = 0; i < ulLists.length; i ++) {
 	var liLists = ulLists[i].getElementsByTagName("li");
 	for(var j = 1; j < liLists.length; j ++) {
@@ -7,4 +6,11 @@ for(var i = 0; i < ulLists.length; i ++) {
 			liLists[j].className = "mui-table-view-cell firstLi";
 		}
 	}
+}
+
+
+var historyList = document.getElementById("historySearch");
+var cleanHistory = document.getElementById("cleanHistory");
+cleanHistory.onclick = function() {
+	historyList.innerHTML = "";
 }
