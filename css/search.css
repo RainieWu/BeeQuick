@@ -1,0 +1,132 @@
+::-webkit-input-placeholder { color:#fff5c9; }
+::-moz-placeholder { color:#fff5c9; } /* firefox 19+ */
+:-ms-input-placeholder { color:#fff5c9; } /* ie */
+input:-moz-placeholder { color:#fff5c9; }
+
+
+.mui-bar-nav{
+	background-color: #fece02;
+	height: 50px;
+	position: fixed;
+}
+
+.mui-bar-nav .mui-icon{
+	color: #fee579;
+	padding: 5px 0;
+	margin-left: -20px !important;
+	font-size: 2.5rem;
+}
+
+.mui-bar-nav .searchBox{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.mui-bar-nav .searchBox .search{
+	border-radius: 15px;
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	background-color: #fee579;
+	color: #fff5c9;
+	margin: 0;
+	padding-left: 40px;
+	text-align: left;
+	font-size: 0.8rem;
+}
+
+.mui-bar-nav .searchBox #searchBtn{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/index/searchIcon.png) no-repeat;
+	background-size: 20px;
+	position: absolute;
+	left: 30px;
+	top: 15px;
+}
+
+.mui-bar-nav .logo{
+	width: 30px;
+	margin: 10px 0;
+	float: right;
+}
+
+#hotSearch{
+	margin-top: 50px;
+}
+
+#hotSearch ul{
+	list-style: none;
+	background-color: #FFFFFF;
+	margin: 10px;
+	padding: 0px;
+	padding-left: 4px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+#hotSearch ul li{
+	display: inline-block;
+	margin-left: -4px;
+}
+
+#hotSearch ul .hotTag{
+	color: #ff5b00;
+}
+
+#hotSearch ul li::before{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background-color: #c8c7cc;
+}
+
+#hotSearch ul .firstLi::before{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background-color: #c8c7cc;
+}
+
+#hotSearch ul li::after{
+	width: 1px;
+	height: 100%;
+	left: 0;
+}
+
+#hotSearch ul .firstLi::after{
+	width: 0px;
+	height: 100%;
+	left: 0;
+}
+
+#hotSearch .mui-slider-indicator{
+	bottom: 15px;
+}
+
+#hotSearch .mui-slider-indicator .mui-indicator{
+	background-color: #FFFFFF;
+	box-shadow: none;
+	border: 1px solid #c2c2c2;
+	width: 8px;
+	height: 8px;
+	margin: 0;
+}
+
+#hotSearch .mui-slider-indicator .mui-active{
+	background-color: #ff5b00;
+	border: none;
+}

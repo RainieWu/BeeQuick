@@ -1,0 +1,99 @@
+
+#menu{
+	background-color: #ffffff;
+	border-bottom: 1px solid #d3d3d3;
+	text-align: center;
+	padding: 10px;
+}
+
+#menu span{
+	display: block;
+	margin: auto;
+	padding: 30%;
+	background: url(../img/home/menuIcon.png) no-repeat;
+	background-size: 350%;
+}
+
+#menu .menu1{
+	background-position: -9% 0;
+}
+
+#menu .menu2{
+	background-position: 29% 0;
+}
+
+#menu .menu3{
+	background-position: 68% 0;
+}
+
+#menu .menu4{
+	background-position: 108% 0;
+}
+
+#menu p{
+	color: #393939;
+}
+
+
+#pullrefresh{
+	padding-bottom: 0px;
+}
+
+#pullrefresh ul{
+	background: none;
+}
+
+#pullrefresh ul::before{
+	height: 0;
+}
+
+#pullrefresh ul::after{
+	height: 0;
+}
+
+#pullrefresh ul li{
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border: 1px solid #d3d3d3;
+}
+
+#pullrefresh ul li::after{
+	height: 0;
+}
+
+#pullrefresh ul li .title{
+	font-size: 1.5rem;
+	margin: 10px;
+}
+
+#pullrefresh ul li .productDetails{
+	margin: 10px;
+}
+
+#pullrefresh ul li .productDetails .price{
+	color: #3e3e3e;
+	border-bottom: 1px solid #3e3e3e;
+	display: inline-block;
+}
+
+#pullrefresh ul li .productDetails .price .priceNum{
+	font-size: 2.0rem;
+}
+
+#pullrefresh ul li .productDetails .discount{
+	color: #818181;
+}
+
+#pullrefresh ul li img{
+	width: 100%;
+	float: right;
+}
+
+#pullrefresh ul .product1 .title, #pullrefresh ul .product1 .priceNum{
+	color: #f04e92;
+}
+
+#pullrefresh ul .product2 .title, #pullrefresh ul .product2 .priceNum{
+	color: #66cee6;
+}

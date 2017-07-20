@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/index.css" rel="stylesheet"/>
+    <link href="css/home.css" rel="stylesheet"/>
+    <link href="css/type.css" rel="stylesheet"/>
+    <link href="css/mine.css" rel="stylesheet"/>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<div class="mui-row">
+        	<div class="mui-col-xs-2">
+				<img src="img/index/logo.png" class="logo" />
+        	</div>
+        	<div class="mui-col-xs-8">
+				<div class="searchBox">
+					<input type="search" placeholder="输入商家、分类或商圈" class="search" />
+					<a href="search.html"><span id="searchBtn" class="searchIcon"></span></a>
+				</div>
+        	</div>
+        	<div class="mui-col-xs-1">
+				<span class="code"></span>
+        	</div>
+        	<div class="mui-col-xs-1">
+				<span class="bell"></span>
+        	</div>
+		</div>
+	</header>
+	<nav class="mui-bar mui-bar-tab">
+	    <a class="mui-tab-item mui-active" href="#home">
+	    	<span class="icon homeIcon"></span>
+	        <span class="mui-tab-label">首页</span>
+	    </a>
+	    <a class="mui-tab-item" href="#type">
+	    	<span class="icon typeIcon"></span>
+	        <span class="mui-tab-label">闪送超市</span>
+	    </a>
+	    <a class="mui-tab-item" href="#mine">
+	    	<span class="icon mineIcon"></span>
+	        <span class="mui-tab-label">我的</span>
+	    </a>
+	    <a class="mui-tab-item">
+	    	<span class="icon sendIcon"></span>
+	        <span class="mui-tab-label">&yen;0元起送</span>
+	    </a>
+	</nav>
+	<div class="mui-content">
+		<!-- homePage -->
+	    <div id="home" class="mui-control-content">
+	    	<!-- carousel -->
+	    	<div id="carousel" class="mui-slider">
+  				<div class="mui-slider-group mui-slider-loop">
+  					<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/home/pic3.jpg" /></a></div>
+    				<div class="mui-slider-item"><a href="#"><img src="img/home/pic1.jpg" /></a></div>
+    				<div class="mui-slider-item"><a href="#"><img src="img/home/pic2.jpg" /></a></div>
+    				<div class="mui-slider-item"><a href="#"><img src="img/home/pic3.jpg" /></a></div>
+    				<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/home/pic1.jpg" /></a></div>
+  				</div>
+			</div>
+			<!-- menu -->
+    		<div id="menu" class="mui-row">
+        		<div class="mui-col-xs-3">
+        			<span class="icon menu1"></span>
+        			<p>抽奖</p>
+        		</div>
+        		<div class="mui-col-xs-3">
+        			<span class="icon menu2"></span>
+        			<p>兑换</p>
+        		</div>
+        		<div class="mui-col-xs-3">
+        			<span class="icon menu3"></span>
+        			<p>促销</p>
+        		</div>
+        		<div class="mui-col-xs-3">
+        			<span class="icon menu4"></span>
+        			<p>闪送超市</p>
+        		</div>
+    		</div>
+    		<!-- productList -->
+    		<div id="productList">
+    			<div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<!--数据列表-->
+						<ul class="mui-table-view mui-table-view-chevron"></ul>
+					</div>
+				</div>
+    		</div>
+	    </div>
+	    <!-- typePage -->
+	    <div id="type" class="mui-control-content">
+	    	<div class="mui-row mui-fullscreen">
+	    		<!-- 左侧列表 -->
+				<div class="mui-col-xs-3">
+					<div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
+						<a class="mui-control-item mui-active" href="#content1">优选水果1</a>
+						<a class="mui-control-item" href="#content2">优选水果2</a>
+						<a class="mui-control-item" href="#content3">优选水果3</a>
+						<a class="mui-control-item" href="#content4">优选水果4</a>
+						<a class="mui-control-item" href="#content5">优选水果5</a>
+						<a class="mui-control-item" href="#content6">优选水果6</a>
+						<a class="mui-control-item" href="#content7">优选水果7</a>
+						<a class="mui-control-item" href="#content8">优选水果8</a>
+					</div>
+				</div>
+	    		<!-- 右侧列表 -->
+				<div id="segmentedControlContents" class="mui-col-xs-9"></div>
+	    	</div>
+	    </div>
+	    <!-- minePage -->
+	    <div id="mine" class="mui-control-content mui-active">
+	    	<img src="img/mine/info.jpg" class="info" />
+		    <div class="mui-row" id="function">
+		    	<div class="mui-col-xs-4 order">
+		    		<span class="orderIcon"></span>
+		    		<p>我的订单</p>
+		    	</div>
+		    	<div class="mui-col-xs-4 coupon">
+		    		<span class="couponIcon"></span>
+		    		<p>优惠券</p>
+		    	</div>
+		    	<div class="mui-col-xs-4 message">
+		    		<span class="messageIcon"></span>
+		    		<p>我的消息</p>
+		    	</div>
+		    </div>
+		    <ul class="mui-table-view" id="list1">
+    			<li class="mui-table-view-cell">
+        			<a class="mui-navigate-right listIcon1">我的收货地址</a>
+    			</li>
+			</ul>
+		    <ul class="mui-table-view" id="list2">
+    			<li class="mui-table-view-cell">
+        			<a class="mui-navigate-right listIcon2">把爱鲜蜂分享给朋友</a>
+    			</li>
+			</ul>
+		    <ul class="mui-table-view" id="list3">
+    			<li class="mui-table-view-cell">
+        			<a class="mui-navigate-right listIcon3">客服帮助</a>
+    			</li>
+    			<li class="mui-table-view-cell">
+        			<a class="mui-navigate-right listIcon4">客服电话：400-8484-842</a>
+    			</li>
+			</ul>
+		    <ul class="mui-table-view" id="list4">
+    			<li class="mui-table-view-cell">
+        			<a class="mui-navigate-right listIcon5">设置</a>
+    			</li>
+			</ul>
+	    </div>
+	</div>
+</body>
+<script src="js/mui.min.js"></script>
+<script src="js/index.js"></script>
+</html>
