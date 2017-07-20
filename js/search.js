@@ -1,3 +1,4 @@
+// 热门搜索每行第一个的样式
 var ulLists = document.getElementById("hotSearch").getElementsByClassName("mui-table-view");
 for(var i = 0; i < ulLists.length; i ++) {
 	var liLists = ulLists[i].getElementsByTagName("li");
@@ -9,6 +10,7 @@ for(var i = 0; i < ulLists.length; i ++) {
 }
 
 
+// 清除历史记录功能
 var historyList = document.getElementById("historySearch");
 var cleanHistory = document.getElementById("cleanHistory");
 cleanHistory.onclick = function() {
