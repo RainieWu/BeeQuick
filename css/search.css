@@ -108,9 +108,7 @@ input:-moz-placeholder { color:#fff5c9; }
 }
 
 #hotSearch ul .firstLi::after{
-	width: 0px;
-	height: 100%;
-	left: 0;
+	content: none;
 }
 
 #hotSearch .mui-slider-indicator{
@@ -129,4 +127,62 @@ input:-moz-placeholder { color:#fff5c9; }
 #hotSearch .mui-slider-indicator .mui-active{
 	background-color: #ff5b00;
 	border: none;
+}
+
+
+#historySearch::before{
+	content: none;
+}
+
+#historySearch::after{
+	content: none;
+}
+
+#historySearch li{
+	padding-left: 10px;
+}
+
+#historySearch li::after{
+	left: 0;
+}
+
+#historySearch li span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/search/historyIcon.jpg) no-repeat;
+	background-size: 16px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+
+#historySearch li p{
+	display: inline-block;
+	float: left;
+}
+
+#historySearch #cleanHistory{
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#historySearch #cleanHistory div{
+	display: inline-block;
+}
+
+#historySearch #cleanHistory div span{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/search/deleteIcon.jpg) no-repeat;
+	background-size: 25px;
+	float: left;
+	margin-right: 5px;
+	margin-top: -3px;
+}
+
+#historySearch #cleanHistorydiv div p{
+	display: inline-block;
+	float: left;
 }

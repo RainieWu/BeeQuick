@@ -1,4 +1,4 @@
-var ulLists =document.getElementById("hotSearch").getElementsByClassName("mui-table-view");
+var ulLists = document.getElementById("hotSearch").getElementsByClassName("mui-table-view");
 
 for(var i = 0; i < ulLists.length; i ++) {
 	var liLists = ulLists[i].getElementsByTagName("li");
