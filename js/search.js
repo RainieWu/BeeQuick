@@ -13,6 +13,6 @@ for(var i = 0; i < ulLists.length; i ++) {
 // 清除历史记录功能
 var historyList = document.getElementById("historySearch");
 var cleanHistory = document.getElementById("cleanHistory");
-cleanHistory.onclick = function() {
+cleanHistory.addEventListener("tap", function() {
 	historyList.innerHTML = "";
-}
+});

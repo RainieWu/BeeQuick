@@ -148,3 +148,34 @@ for(var i = 1; i <= document.getElementById("segmentedControls").childElementCou
 		col8Div.appendChild(addBtn);
 	}
 }
+
+
+var homePage = document.getElementById("home");
+var typePage = document.getElementById("type");
+var minePage = document.getElementById("mine");
+
+
+if(homePage.classList.length == 2) {
+	console.log("home");
+}
+if(typePage.classList.length == 2) {
+	console.log("type");
+}
+if(minePage.classList.length == 2) {
+	console.log("mine");
+}
+
+
+var nav = document.getElementsByTagName("nav")[0];
+nav.addEventListener("tap", function() {
+	//alert("233");
+	if(homePage.classList.length == 2) {
+	console.log("home");
+}
+if(typePage.classList.length == 2) {
+	console.log("type");
+}
+if(minePage.classList.length == 2) {
+	console.log("mine");
+}
+});
