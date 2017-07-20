@@ -1,11 +1,3 @@
-
-//mui('body').on('tap','a',function(){document.location.href=this.href;});
-
-//var productListTop = document.getElementById("carousel").offsetHeight + document.getElementById("menu").offsetHeight + "px";
-
-//var productList = document.getElementById("pullrefresh");
-//productList.style.top = productListTop;
-
 document.getElementById("pullrefresh").style.top = document.getElementById("carousel").offsetHeight + document.getElementById("menu").offsetHeight + "px";
 
 mui.init({
@@ -34,6 +26,10 @@ function pullupRefresh() {
 				li.className = "mui-table-view-cell product2";
 				table.appendChild(li);
 			}
+			
+			li.addEventListener("tap", function() {
+				window.location.href = "detail.html";
+			});
 						
 			var rowDiv = document.createElement("div");
 			rowDiv.className = "mui-row";
@@ -151,33 +147,4 @@ for(var i = 1; i <= document.getElementById("segmentedControls").childElementCou
 		addBtn.className = "addBtn";
 		col8Div.appendChild(addBtn);
 	}
-}
-
-var nav = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
-var header = document.getElementsByTagName("header")[0];
-/*for(var i = 0; i < nav.length - 1; i ++){
-	if(i == 2) {
-		nav[i].i = i;
-		nav[i].onclick = function() {
-			//alert(this.i);
-			header.style.display = "none";
-		}
-	} else {
-		nav[i].i = i;
-		nav[i].onclick = function() {
-			//alert(this.i);
-			header.style.display = "block";
-			//var content = document.getElementsByClassName("mui-control-content");
-			//console.log(content[0]);
-		}
-	}
-}
-*/
-nav[2].onclick = function() {
-	console.log("222444");
-	
-	//var header = document.getElementsByTagName("header")[0];
-	//header.style.display = "none";
-	//var mine = document.getElementById("mine");
-	//mine.style.paddingTop = 0;
 }
