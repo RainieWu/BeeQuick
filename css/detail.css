@@ -25,6 +25,10 @@
 }
 
 
+.mui-content {
+	margin-bottom: 80px;
+}
+
 .mui-content #carousel {
 	border-bottom: 1px solid #dcdcdc;
 }
@@ -67,6 +71,7 @@
 	border-bottom: 1px solid #dcdcdc;
 	font-size: 1.0rem;
 	padding: 10px 15px;
+	background-color: #f8f8f8;
 }
 
 .mui-content .detailList li span{
@@ -78,42 +83,55 @@
 	width: 100%;
 }
 
+
 footer{
 	background-color: #f4f5f5;
 	border-top: 2px solid #cecccc;
-	padding: 15px;
-	padding-bottom: 5px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
-footer p{
+footer .addProduct{
 	font-size: 1.0rem;
 	color: #000000;
+	margin-left: 15px;
+	float: left;
+	margin-top: 15px;
 }
 
 footer .subBtn{
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 36px;
+	height: 36px;
 	background: url(../img/detail/button.png) no-repeat;
-	background-size: 100px;
+	background-size: 36px;
+	float: left;
+	margin: 7px;
 }
 
 footer .num{
 	color: #727272;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
+	float: left;
+	margin-top: 15px;
 }
 
 footer .addBtn{
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 36px;
+	height: 36px;
 	background: url(../img/detail/button.png) no-repeat;
-	background-size: 100px;
+	background-size: 36px;
+	background-position: 0 -36px;
+	float: left;
+	margin: 7px;
 }
 
 footer img{
-	width: 100%;
+	width: 80px;
 	position: absolute;
-	top: -38px;
+	top: -31px;
+	right: 5px;
 }

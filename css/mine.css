@@ -24,22 +24,22 @@
 
 #function div span{
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 24px;
+	height: 23px;
 	background: url(../img/mine/funcIcon.jpg) no-repeat;
-	background-size: 160px;
+	background-size: 24px;
 }
 
 #function div .orderIcon{
-	background-position: -8px 0;
+	background-position: 0px 0;
 }
 
 #function div .couponIcon{
-	background-position: -58px 0;
+	background-position: 0px -23px;
 }
 
 #function div .messageIcon{
-	background-position: -110px 0;
+	background-position: 0px -46px;
 }
 
 #function div p{
@@ -52,29 +52,39 @@
 	font-size: 1.0rem;
 }
 
-.mui-content ul li a{
+.mui-content ul li .listIcon{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
 	background: url(../img/mine/listIcon.jpg) no-repeat;
-	background-size: 35px;
-	padding-left: 40px !important;
-	margin-left: 0px !important;
+	background-size: 25px;
 }
 
 .mui-content ul li .listIcon1{
-	background-position: 0 6px;
+	background-position: 0 0;
 }
 
 .mui-content ul li .listIcon2{
-	background-position: 0 -32px;
+	background-position: 0 -25px;
 }
 
 .mui-content ul li .listIcon3{
-	background-position: 0 -70px;
+	background-position: 0 -50px;
 }
 
 .mui-content ul li .listIcon4{
-	background-position: 0 -106px;
+	background-position: 0 -75px;
 }
 
 .mui-content ul li .listIcon5{
-	background-position: 0 -142px;
+	background-position: 0 -100px;
+}
+
+.mui-content ul li a{
+	display: inline-block !important;
+	margin-left: -5px !important;
+}
+
+.mui-content ul li a::after{
+	right: 0;
 }
