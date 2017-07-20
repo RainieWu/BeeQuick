@@ -8,6 +8,12 @@ input:-moz-placeholder { color:#fff5c9; }
 	background-color: #fece02;
 	height: 50px;
 	position: fixed;
+	display: block;
+}
+
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+	margin-top: 0px;
 }
 
 .mui-bar-nav .logo{
@@ -121,12 +127,16 @@ input:-moz-placeholder { color:#fff5c9; }
 	background-position: -70px 0px;
 }
 
-.mui-bar-tab .mui-active .sendIcon{
+.mui-bar-tab .mui-active .mui-tab-label{
+	color: #fea31e;
+}
+
+.mui-bar-tab .disabled .mui-tab-label{
+	color: #929292;
+}
+
+.mui-bar-tab .disabled .sendIcon{
 	background: url(../img/index/bottomIcon.png) no-repeat;
 	background-size: 140px;
 	background-position: -105px 0px;
-}
-
-.mui-bar-tab .mui-active .mui-tab-label{
-	color: #fea31e;
 }

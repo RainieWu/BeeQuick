@@ -4,6 +4,8 @@
 
 .mui-content .info{
 	width: 100%;
+	z-index: 20;
+	position: absolute;
 }
 
 #function{
