@@ -1,39 +1,39 @@
-#mine{
+#mine {
 	position: relative;
 	z-index: 10;
 	background-color: #EFEFF4;
-}
-
-#mine ul{
-	margin: 10px 0;
-}
-
-.mui-content{
 	margin-bottom: 57px;
 }
 
-.mui-content .info{
+
+/* 顶部图片 */
+
+#mine .info {
 	width: 100%;
 	z-index: 20;
 }
 
-#function{
+
+/* 功能 */
+
+#function {
 	background-color: #ffffff;
 	padding: 20px;
 	margin-top: -4px;
 	border-bottom: 1px solid #c3c3c3;
 }
 
-#function div{
+#function div {
 	text-align: center;
 	padding: 10px;
 }
 
-#function .order, #function .coupon{
+#function .order,
+#function .coupon {
 	border-right: 1px solid #c2c2c2;
 }
 
-#function div span{
+#function div span {
 	display: inline-block;
 	width: 24px;
 	height: 23px;
@@ -41,34 +41,38 @@
 	background-size: 24px;
 }
 
-#function div .orderIcon{
+#function div .orderIcon {
 	background-position: 0px 0;
 }
 
-#function div .couponIcon{
+#function div .couponIcon {
 	background-position: 0px -23px;
 }
 
-#function div .messageIcon{
+#function div .messageIcon {
 	background-position: 0px -46px;
 }
 
-#function div p{
+#function div p {
 	font-size: 0.8rem;
 	color: #302f2f;
 }
 
-.mui-content ul{
+
+/* 列表 */
+
+#mine ul {
 	margin: 0;
 	font-size: 1.0rem;
+	margin: 10px 0;
 }
 
-.mui-content ul li{
+#mine ul li {
 	padding: 5px;
 	padding-left: 10px;
 }
 
-.mui-content ul li .listIcon{
+#mine ul li .listIcon {
 	display: inline-block;
 	width: 22px;
 	height: 22px;
@@ -76,38 +80,38 @@
 	background-size: 22px;
 }
 
-.mui-content ul li .listIcon1{
+#mine ul li .listIcon1 {
 	background-position: 0 0;
 }
 
-.mui-content ul li .listIcon2{
+#mine ul li .listIcon2 {
 	background-position: 0 -22px;
 }
 
-.mui-content ul li .listIcon3{
+#mine ul li .listIcon3 {
 	background-position: 0 -44px;
 }
 
-.mui-content ul li .listIcon4{
+#mine ul li .listIcon4 {
 	background-position: 0 -66px;
 }
 
-.mui-content ul li .listIcon5{
+#mine ul li .listIcon5 {
 	background-position: 0 -88px;
 }
 
-.mui-content ul li a{
+#mine ul li a {
 	display: inline-block !important;
 	margin-left: -5px !important;
 	width: 90%;
 	font-size: 0.9rem;
-	top: -7px;
+	top: -5px;
 }
 
-.mui-content ul li a::after{
+#mine ul li a::after {
 	right: 0;
 }
 
-.mui-content ul li::after{
+#mine ul li::after {
 	left: 0;
 }

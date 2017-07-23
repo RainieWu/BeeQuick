@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <title></title>
-    <link href="css/mui.min.css" rel="stylesheet"/>
-    <link href="css/detail.css" rel="stylesheet"/>
-</head>
-<body>
-	<header class="mui-bar mui-bar-nav">
-		<div class="mui-row">
-        	<div class="mui-col-xs-1">
-				<a href="index.html"><span class="mui-icon mui-icon-back"></span></a>
-        	</div>
-        	<div class="mui-col-xs-10">
-        		<p>合味道XO酱海鲜风味面</p>
-        	</div>
-        	<div class="mui-col-xs-1">
-				<img src="img/detail/share.png" class="share" />
-        	</div>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/detail.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- 头部 -->
+		<header class="mui-bar mui-bar-nav">
+			<div class="mui-row">
+				<div class="mui-col-xs-1">
+					<a href="index.html"><span class="mui-icon mui-icon-back"></span></a>
+				</div>
+				<div class="mui-col-xs-10">
+					<p>合味道XO酱海鲜风味面</p>
+				</div>
+				<div class="mui-col-xs-1">
+					<img src="img/detail/share.png" class="share" />
+				</div>
+			</div>
+		</header>
+		<div class="mui-content">
+			<!-- 图片轮播 -->
+			<div id="carousel" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#"><img src="img/detail/pic3.jpg" /></a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#"><img src="img/detail/pic1.jpg" /></a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#"><img src="img/detail/pic2.jpg" /></a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#"><img src="img/detail/pic3.jpg" /></a>
+					</div>
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#"><img src="img/detail/pic1.jpg" /></a>
+					</div>
+				</div>
+			</div>
+			<!-- 产品名称及价格 -->
+			<div class="basedInfo">
+				<p class="productName">合味道XO酱海鲜风味面</p>
+				<p class="newPrice">&yen;5</p>
+				<p class="oldPrice">&yen;6</p>
+			</div>
+			<!-- 信息列表 -->
+			<ul class="detailList">
+				<li><span>品&ensp;&ensp;&ensp;&ensp;牌</span>日清</li>
+				<li><span>产品规格</span>87g</li>
+			</ul>
+			<img src="img/detail/detail.jpg" id="detailContent" />
 		</div>
-	</header>
-	<div class="mui-content">
-	    <!-- carousel -->
-	    <div id="carousel" class="mui-slider">
-  			<div class="mui-slider-group mui-slider-loop">
-  				<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/detail/pic3.jpg" /></a></div>
-    			<div class="mui-slider-item"><a href="#"><img src="img/detail/pic1.jpg" /></a></div>
-    			<div class="mui-slider-item"><a href="#"><img src="img/detail/pic2.jpg" /></a></div>
-    			<div class="mui-slider-item"><a href="#"><img src="img/detail/pic3.jpg" /></a></div>
-    			<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/detail/pic1.jpg" /></a></div>
-  			</div>
-		</div>
-		<div class="basedInfo">
-			<p class="productName">合味道XO酱海鲜风味面</p>
-			<p class="newPrice">&yen;5</p>
-			<p class="oldPrice">&yen;6</p>
-		</div>
-		<ul class="detailList">
-			<li><span>品&ensp;&ensp;&ensp;&ensp;牌</span>日清</li>
-			<li><span>产品规格</span>87g</li>
-		</ul>
-		<img src="img/detail/detail.jpg" />
-	</div>
-	<footer>
-		<div class="mui-row">
-        	<div class="mui-col-xs-10">
-        		<span class="addProduct">添加商品：</span>
-        		<span class="subBtn"></span>
-        		<span class="num">0</span>
-        		<span class="addBtn"></span>
-        	</div>
-        	<div class="mui-col-xs-2">
-				<img src="img/detail/send.png" />
-        	</div>
-		</div>
-	</footer>
-</body>
-<script src="js/mui.min.js"></script>
+		<!-- 底部添加产品 -->
+		<footer>
+			<div class="mui-row">
+				<div class="mui-col-xs-10">
+					<span class="addProduct">添加商品：</span>
+					<span class="subBtn"></span>
+					<span class="num">0</span>
+					<span class="addBtn"></span>
+				</div>
+				<div class="mui-col-xs-2">
+					<img src="img/detail/send.png" />
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="js/mui.min.js"></script>
+
 </html>

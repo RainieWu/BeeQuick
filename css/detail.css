@@ -1,18 +1,20 @@
-.mui-bar-nav{
+/* 头部 */
+
+.mui-bar-nav {
 	background-color: #fefefe;
 	height: 50px;
 	box-shadow: none;
 	border-bottom: 2px solid #d9d9d9;
 }
 
-.mui-bar-nav .mui-icon{
+.mui-bar-nav .mui-icon {
 	color: #fd540e;
 	padding: 5px 0;
 	margin-left: -20px !important;
 	font-size: 2.5rem;
 }
 
-.mui-bar-nav p{
+.mui-bar-nav p {
 	text-align: center;
 	font-size: 1.0rem;
 	color: #000000;
@@ -20,16 +22,14 @@
 	font-weight: bold;
 }
 
-.mui-bar-nav .share{
+.mui-bar-nav .share {
 	width: 36px;
 	margin: 7px 0;
 	float: right;
 }
 
-#carousel img{
-	margin: 0;
-}
 
+/* 内容 */
 
 .mui-content {
 	margin-bottom: 50px;
@@ -45,14 +45,14 @@
 	padding-bottom: 0;
 }
 
-.mui-content .productName{
+.mui-content .productName {
 	color: #000000;
 	font-size: 1.0rem;
 	margin-bottom: 20px;
 	font-weight: bold;
 }
 
-.mui-content .newPrice{
+.mui-content .newPrice {
 	color: #e8470e;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -60,39 +60,41 @@
 	margin-right: 10px;
 }
 
-.mui-content .oldPrice{
+.mui-content .oldPrice {
 	color: #cecece;
 	font-size: 1.4rem;
 	display: inline-block;
 	text-decoration: line-through;
 }
 
-.mui-content .detailList{
+.mui-content .detailList {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	border-top: 1px solid #dcdcdc;
 }
 
-.mui-content .detailList li{
+.mui-content .detailList li {
 	border-bottom: 1px solid #dcdcdc;
 	font-size: 0.8rem;
 	padding: 10px 15px;
 	background-color: #f8f8f8;
 }
 
-.mui-content .detailList li span{
+.mui-content .detailList li span {
 	color: #9e9e9e;
 	margin-right: 30px;
 }
 
-.mui-content img{
+.mui-content #detailContent {
 	width: 100%;
 	margin: 10px 0;
 }
 
 
-footer{
+/* 底部 */
+
+footer {
 	background-color: #f4f5f5;
 	border-top: 2px solid #cecccc;
 	position: fixed;
@@ -100,7 +102,7 @@ footer{
 	width: 100%;
 }
 
-footer .addProduct{
+footer .addProduct {
 	font-size: 1.0rem;
 	color: #000000;
 	margin-left: 15px;
@@ -108,7 +110,7 @@ footer .addProduct{
 	margin-top: 15px;
 }
 
-footer .subBtn{
+footer .subBtn {
 	display: inline-block;
 	width: 36px;
 	height: 36px;
@@ -118,7 +120,7 @@ footer .subBtn{
 	margin: 7px;
 }
 
-footer .num{
+footer .num {
 	color: #727272;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -126,7 +128,7 @@ footer .num{
 	margin-top: 15px;
 }
 
-footer .addBtn{
+footer .addBtn {
 	display: inline-block;
 	width: 36px;
 	height: 36px;
@@ -137,7 +139,7 @@ footer .addBtn{
 	margin: 7px;
 }
 
-footer img{
+footer img {
 	width: 80px;
 	position: absolute;
 	top: -31px;

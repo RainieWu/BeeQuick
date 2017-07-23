@@ -1,16 +1,19 @@
-#home{
+#home {
 	margin-top: 50px;
 }
 
 
-#menu{
+/* 菜单 */
+
+#menu {
 	background-color: #ffffff;
 	border-bottom: 1px solid #d3d3d3;
 	text-align: center;
 	padding: 10px;
+	margin-top: 0;
 }
 
-#menu span{
+#menu span {
 	display: block;
 	margin: auto;
 	padding: 32%;
@@ -18,85 +21,90 @@
 	background-size: 75%;
 }
 
-#menu .menu1{
+#menu .menu1 {
 	background-position: 80% 0;
 }
 
-#menu .menu2{
-	background-position: 80% 33%;
+#menu .menu2 {
+	background-position: 80% 33.3%;
 }
 
-#menu .menu3{
+#menu .menu3 {
 	background-position: 80% 67%;
 }
 
-#menu .menu4{
+#menu .menu4 {
 	background-position: 80% 100%;
 }
 
-#menu p{
+#menu p {
 	color: #393939;
 }
 
 
-#pullrefresh{
+/* 产品数据列表 */
+
+#pullrefresh {
+	margin-top: 0;
 }
 
-#pullrefresh ul{
+#pullrefresh ul {
 	background: none;
 }
 
-#pullrefresh ul::before{
+#pullrefresh ul::before {
 	height: 0;
 }
 
-#pullrefresh ul::after{
+#pullrefresh ul::after {
 	height: 0;
 }
 
-#pullrefresh ul li{
+#pullrefresh ul li {
 	padding: 10px;
 	margin: 10px;
 	background-color: #FFFFFF;
 	border: 1px solid #d3d3d3;
 }
 
-#pullrefresh ul li::after{
+#pullrefresh ul li::after {
 	height: 0;
 }
 
-#pullrefresh ul li .title{
+#pullrefresh ul li .title {
 	font-size: 1.5rem;
 	margin: 10px;
 }
 
-#pullrefresh ul li .productDetails{
+#pullrefresh ul li .productDetails {
 	margin: 10px;
 }
 
-#pullrefresh ul li .productDetails .price{
+#pullrefresh ul li .productDetails .price {
 	color: #3e3e3e;
 	border-bottom: 1px solid #3e3e3e;
 	display: inline-block;
 }
 
-#pullrefresh ul li .productDetails .price .priceNum{
+#pullrefresh ul li .productDetails .price .priceNum {
 	font-size: 2.0rem;
 }
 
-#pullrefresh ul li .productDetails .discount{
+#pullrefresh ul li .productDetails .discount {
 	color: #818181;
 }
 
-#pullrefresh ul li img{
+#pullrefresh ul li img {
 	width: 100%;
 	float: right;
 }
 
-#pullrefresh ul .product1 .title, #pullrefresh ul .product1 span{
+#pullrefresh ul .product1 .title,
+#pullrefresh ul .product1 span {
 	color: #f04e92;
 }
 
-#pullrefresh ul .product2 .title, #pullrefresh ul .product2 span{
+#pullrefresh ul .product2 .title,
+#pullrefresh ul .product2 span {
 	color: #66cee6;
 }

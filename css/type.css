@@ -1,51 +1,56 @@
-#type{
+#type {
 	margin-top: 50px;
 }
 
-
-.mui-content{
+#type .mui-content {
 	margin-bottom: 0px;
 	height: 100%;
 	margin-top: 6px;
 }
 
-#segmentedControls a{
+
+/* 左侧列表 */
+
+#segmentedControls a {
 	width: 100%;
 	padding: 3px 5px;
 	font-size: 0.8rem;
 }
 
-#segmentedControls .mui-active{
+#segmentedControls .mui-active {
 	color: #fea31e;
 	background-color: #ffffff;
 	border-top: 1px solid #ffffff;
 	border-left: 1px solid #fea31e;
 }
 
-#segmentedControlContents{
+
+/* 左侧列表 */
+
+#segmentedControlContents {
 	border: none;
 	margin-bottom: 57px;
 }
 
-#segmentedControlContents p{
+#segmentedControlContents p {
 	margin: 0;
 	margin-left: 5px;
 	color: #565656;
 }
 
-#segmentedControlContents ul::before{
+#segmentedControlContents ul::before {
 	height: 0;
 }
 
-#segmentedControlContents ul li img{
+#segmentedControlContents ul li img {
 	width: 100%;
 }
 
-#segmentedControlContents ul li .name{
+#segmentedControlContents ul li .name {
 	font-size: 1.0rem;
 }
 
-#segmentedControlContents ul li .name span{
+#segmentedControlContents ul li .name span {
 	font-size: 0.8rem;
 	border: 1px solid #ff4100;
 	border-radius: 8px;
@@ -54,7 +59,7 @@
 	margin-right: 5px;
 }
 
-#segmentedControlContents ul li .discount{
+#segmentedControlContents ul li .discount {
 	background-color: #f85252;
 	border-radius: 8px;
 	display: inline-block;
@@ -64,17 +69,17 @@
 	margin-top: 5px;
 }
 
-#segmentedControlContents ul li .num{
+#segmentedControlContents ul li .num {
 	color: #929091;
 	font-size: 1.0rem;
 }
 
-#segmentedControlContents ul li .price{
+#segmentedControlContents ul li .price {
 	color: #ff4100;
 	font-size: 1.2rem;
 }
 
-#segmentedControlContents ul li .addBtn{
+#segmentedControlContents ul li .addBtn {
 	display: block;
 	width: 35px;
 	height: 35px;
@@ -83,4 +88,8 @@
 	position: absolute;
 	right: 0;
 	bottom: 0;
+}
+
+#segmentedControlContents ul li a {
+	top: auto;
 }
