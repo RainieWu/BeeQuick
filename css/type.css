@@ -11,6 +11,8 @@
 
 #segmentedControls a{
 	width: 100%;
+	padding: 3px 5px;
+	font-size: 0.8rem;
 }
 
 #segmentedControls .mui-active{
@@ -29,6 +31,10 @@
 	margin: 0;
 	margin-left: 5px;
 	color: #565656;
+}
+
+#segmentedControlContents ul::before{
+	height: 0;
 }
 
 #segmentedControlContents ul li img{
@@ -70,10 +76,10 @@
 
 #segmentedControlContents ul li .addBtn{
 	display: block;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	background: url(../img/type/add.jpg) no-repeat;
-	background-size: 40px;
+	background-size: 35px;
 	position: absolute;
 	right: 0;
 	bottom: 0;

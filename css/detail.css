@@ -1,6 +1,8 @@
 .mui-bar-nav{
 	background-color: #fefefe;
 	height: 50px;
+	box-shadow: none;
+	border-bottom: 2px solid #d9d9d9;
 }
 
 .mui-bar-nav .mui-icon{
@@ -24,9 +26,13 @@
 	float: right;
 }
 
+#carousel img{
+	margin: 0;
+}
+
 
 .mui-content {
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 
 .mui-content #carousel {
@@ -41,8 +47,9 @@
 
 .mui-content .productName{
 	color: #000000;
-	font-size: 1.2rem;
+	font-size: 1.0rem;
 	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 .mui-content .newPrice{
@@ -69,7 +76,7 @@
 
 .mui-content .detailList li{
 	border-bottom: 1px solid #dcdcdc;
-	font-size: 1.0rem;
+	font-size: 0.8rem;
 	padding: 10px 15px;
 	background-color: #f8f8f8;
 }
@@ -81,6 +88,7 @@
 
 .mui-content img{
 	width: 100%;
+	margin: 10px 0;
 }
 
 

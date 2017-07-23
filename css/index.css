@@ -9,6 +9,7 @@ input:-moz-placeholder { color:#fff5c9; }
 	height: 50px;
 	position: fixed;
 	display: block;
+	box-shadow: none;
 }
 
 .mui-bar-nav~.mui-content{

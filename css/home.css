@@ -40,7 +40,6 @@
 
 
 #pullrefresh{
-	padding-bottom: 0px;
 }
 
 #pullrefresh ul{
@@ -94,10 +93,10 @@
 	float: right;
 }
 
-#pullrefresh ul .product1 .title, #pullrefresh ul .product1 .priceNum{
+#pullrefresh ul .product1 .title, #pullrefresh ul .product1 span{
 	color: #f04e92;
 }
 
-#pullrefresh ul .product2 .title, #pullrefresh ul .product2 .priceNum{
+#pullrefresh ul .product2 .title, #pullrefresh ul .product2 span{
 	color: #66cee6;
 }

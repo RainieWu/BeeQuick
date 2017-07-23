@@ -4,6 +4,10 @@
 	background-color: #EFEFF4;
 }
 
+#mine ul{
+	margin: 10px 0;
+}
+
 .mui-content{
 	margin-bottom: 57px;
 }
@@ -16,6 +20,8 @@
 #function{
 	background-color: #ffffff;
 	padding: 20px;
+	margin-top: -4px;
+	border-bottom: 1px solid #c3c3c3;
 }
 
 #function div{
@@ -48,21 +54,26 @@
 }
 
 #function div p{
-	font-size: 1.0rem;
+	font-size: 0.8rem;
 	color: #302f2f;
 }
 
 .mui-content ul{
-	margin: 10px 0;
+	margin: 0;
 	font-size: 1.0rem;
+}
+
+.mui-content ul li{
+	padding: 5px;
+	padding-left: 10px;
 }
 
 .mui-content ul li .listIcon{
 	display: inline-block;
-	width: 25px;
-	height: 25px;
+	width: 22px;
+	height: 22px;
 	background: url(../img/mine/listIcon.jpg) no-repeat;
-	background-size: 25px;
+	background-size: 22px;
 }
 
 .mui-content ul li .listIcon1{
@@ -70,27 +81,33 @@
 }
 
 .mui-content ul li .listIcon2{
-	background-position: 0 -25px;
+	background-position: 0 -22px;
 }
 
 .mui-content ul li .listIcon3{
-	background-position: 0 -50px;
+	background-position: 0 -44px;
 }
 
 .mui-content ul li .listIcon4{
-	background-position: 0 -75px;
+	background-position: 0 -66px;
 }
 
 .mui-content ul li .listIcon5{
-	background-position: 0 -100px;
+	background-position: 0 -88px;
 }
 
 .mui-content ul li a{
 	display: inline-block !important;
 	margin-left: -5px !important;
-	width: 95%;
+	width: 90%;
+	font-size: 0.9rem;
+	top: -7px;
 }
 
 .mui-content ul li a::after{
 	right: 0;
+}
+
+.mui-content ul li::after{
+	left: 0;
 }

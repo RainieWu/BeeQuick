@@ -1,4 +1,9 @@
-document.getElementById("pullrefresh").style.top = document.getElementById("carousel").offsetHeight + document.getElementById("menu").offsetHeight + "px";
+var marginTop = document.getElementById("carousel").offsetHeight + document.getElementById("menu").offsetHeight;
+var windowHeight = document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight;
+
+document.getElementById("pullrefresh").style.marginTop = marginTop + "px";
+document.getElementById("pullrefresh").style.height = windowHeight - marginTop - 60 + "px";
+
 
 mui.init({
 	pullRefresh: {
@@ -50,7 +55,7 @@ function pullupRefresh() {
 						
 			var price = document.createElement("p");
 			price.className = "price";
-			price.innerHTML = "光明畅优乳杆菌<span class='priceNum'>6</span>元/2</span>瓶";
+			price.innerHTML = "光明畅优乳杆菌<span class='priceNum'>6</span>元/<span>2</span>瓶";
 			detailDiv.appendChild(price);
 						
 			var discount = document.createElement("p");
@@ -65,7 +70,7 @@ function pullupRefresh() {
 				rowDiv.appendChild(div2);
 			} else {
 				var div2 = document.createElement("div");
-				div2.className = "mui-col-xs-6";
+				div2.className = "mui-col-xs-6 imgBox";
 				div2.innerHTML = "<img src='img/home/product2.png' />";
 				rowDiv.appendChild(div2);
 			}
@@ -149,7 +154,7 @@ for(var i = 1; i <= document.getElementById("segmentedControls").childElementCou
 	}
 }
 
-
+/*
 var homePage = document.getElementById("home");
 var typePage = document.getElementById("type");
 var minePage = document.getElementById("mine");
@@ -179,3 +184,4 @@ if(minePage.classList.length == 2) {
 	console.log("mine");
 }
 });
+*/
